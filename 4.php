@@ -11,10 +11,10 @@
         <body>
             <?php
                 $logins = array(
-                    "TheRiazon"  => array(true, "Павел Бондарь"),
-                    "TheNozair" => array(true, "Бавел Пондарь"),
-                    "TheLichKing" => array(true, "Артас Менетил"),
-                    "Vergil" => array(true, "Вергилий"),
+                    "1"  => array(true, "Крупнов Никита"),
+                    "2" => array(true, "Иван Иванович"),
+                    "3" => array(true, "Сергей Сергеевич"),
+                    "4" => array(true, "Антон Антонович"),
                 );
                 if (!empty($logins[$_POST['login']][0])) {echo "<h2>Здравствуйте, ".$logins[$_POST['login']][1]."!</h2>";}
                 else {echo "<h2>Вы не зарегистрированный пользователь!</h2>";}
